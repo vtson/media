@@ -1,0 +1,49 @@
+.tab-content div {
+    display: none;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    height: calc(100vh - 50vh);
+}
+
+.reviewUpload{
+    max-width: 100%;
+    height: auto;
+}
+
+.tab-content div.is-active {
+    display: block;
+}
+
+div.card-content .content-right {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 0.8em;
+    line-height: 0.5em;
+}
+
+a {
+    color: #000;
+}
+
+a:hover{
+    color: #06f;
+}
+
+.like-on{
+    font-weight: 900;
+    color: #06f;
+}
+
+.like-off{
+    color: #000;
+}
+
+.dropdown-trigger img{
+    width: 80px;
+    height: 200px;
+}
